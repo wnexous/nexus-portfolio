@@ -7,7 +7,24 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+      center: true,
+    },
     extend: {
+      fontFamily:{
+        poppins:"Poppins"
+      },
+      textColor: {
+        "pimary": "#DBDBDB",
+        "secundary": "#D1D1D1"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
